@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+
+}
+
+.banner {
+    height: 35vh;
+    width: 100%;
+    background-color: #00a884;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+    margin-left: 50px;
+
+
+}
+
+.logo p {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.container{
+    height: 50vh;
+    width: 50%;
+    /* background-color: black; */
+
+}
+
+.boxes {
+    height: 160vh;
+    width: 150%;
+    margin-top: -5px;
+    margin-left: 28vh;
+    background-color: rgb(244, 243, 243);
+    border-radius: 3px;
+    position: relative;
+}
+
+.boxes.b1 {
+    height: 70px;
+    width: 30px;
+}
+
+.boxes.heading {
+    height: 60px;
+    width: 50;
+}
+
+.boxes h3 {
+    font-size: 30px;
+    height: 40px;
+    margin-left: 50px;
+    padding-top: 80px;
+
+}
+
+.list-item {
+    height: 40vh;
+    width: 60%;
+    font-size: 20px;
+    margin: 40px 30px;
+    list-style: none;
+    padding-top: 30px;
+
+}
+
+.list-item li {
+    margin: 30px;
+}
+
+.list-item a {
+    color: green;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.shubh {
+    width: 290px;
+    height: 280px;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    background-image: url(./image/Screenshot-1.png);
+    background-size: cover;
+}
+
+.box-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 img {
+    height: 70vh;
+    width: 50%;
+    position: absolute;
+}

@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1b2530;
+    width: 100%;
+}
+
+nav img {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.Box-one {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 30px;
+    margin-right: 370px;
+}
+
+.Box-two {
+    color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.Btn-one {
+    height: 35px;
+    width: 125px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Box-one li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Section-one {
+    height: 80vh;
+    padding: 50px;
+    background-image: url(./image/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.Section-text {
+    margin-top: 80px;
+}
+
+.Section-text h1 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.Section-one p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.BTN-join {
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #0f79af;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.Hero-sec {
+    height: 85vh;
+    padding: 50px;
+    background-color: black;
+    background-image: url(./image/bg-3.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 800px;
+}
+
+.Hero-text {
+    color: #fff;
+}
+
+.Hero-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Hero-text p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.Btn-Rent {
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #0f79af;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+}
+
+.Channel-sec {
+    height: 105vh;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Channel-text h1 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.Channel-text h3 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.image-grid {
+    /* display: block; */
+    /* flex-direction: column; */
+}
+
+.image-grid img {
+    width: 200px;
+}
+
+.TV-stick {
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    background-image: url(./image/remote.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TV-text {
+    width: 100%;
+    color: #fff;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TV-text h1 {
+    margin-bottom: 19px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.TV-text h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.Btn-Get {
+    margin-top: 40px;
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #0f79af;
+    font-size: 21px;
+    padding: 5px;
+    border: none;
+}
+
+.Family-friend {
+    height: 90vh;
+    background-image: url(./image/toys.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Btn-start {
+    margin-top: 40px;
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #0f79af;
+    font-size: 21px;
+    padding: 5px;
+    border: none;
+}
+
+.Family-text h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.Family-text h3 {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.Footer-last {
+    background-color: #222222;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Footer-last p {
+    color: #0f79af;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .Box-one {
+        display: none;
+    }
+
+    .Box-two{
+        background-color: red;
+        width: auto;
+    }
+
+    .Box-two li:nth-child(2){
+        display: none;
+    }
+    .Box-two li:nth-child(3){
+        display: none;
+    }
+    .Box-two li:last-child{
+        display: none;
+    }
+    
+.Channel-sec {
+    height:auto;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Channel-text h1 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.Channel-text h3 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+.image-grid img{
+    height: auto;
+    width: 100%;
+}
+
+.TV-text {
+    width: 100%;
+    color: #fff;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -40px;
+}
+.TV-text h1 {
+    margin-bottom: 19px;
+    font-size: 45px;
+    font-weight: 300;
+    margin-left: -10px;
+}
+.Btn-Get {
+    margin-top: 40px;
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    background-color: #0f79af;
+    font-size: 21px;
+    padding: 5px;
+    border: none;
+}
+
+
+
+}
